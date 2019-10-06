@@ -7,12 +7,12 @@
 }
 
 .block {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	width: 80%;
-	height: 70%;
+	height: 70vh;
 }
 
-.up {
+.hat {
 	border: 1px dotted;
 	text-align: center;
 	height: 15vh;
@@ -24,4 +24,60 @@
 	display: flex;
 	justify-content: space-between;
 
+}
+
+.one {
+	border: 1px dotted;
+	width: 25%;
+}
+
+.two {
+	border: 1px dotted;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.twoUp {
+	border: 1px dotted;
+	height: 55%;
+
+}
+
+.towDown {
+	border: 1px dotted;
+	height: 45%;
+}
+
+.three {
+	border: 1px dotted;
+	width: 25%;
+}
+
+.threeUp {
+	border: 1px dotted;
+	height: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.threeUpDiv {
+	border: 1px dotted;
+	height: 40%;
+	width: 60%;
+}
+
+.threeDown {
+	border: 1px dotted;
+	height: 45%;
+}
+
+.button {
+	margin: 10%;
+	padding: 15%;
+	font-size: larger;
+	background-color: #09d3ac;
 }
