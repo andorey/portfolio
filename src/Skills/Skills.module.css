@@ -27,6 +27,7 @@
 }
 
 .one {
+	background-color: aliceblue;
 	border: 1px dotted;
 	width: 25%;
 }
@@ -39,12 +40,14 @@
 }
 
 .twoUp {
+	background-color: aliceblue;
 	border: 1px dotted;
 	height: 55%;
 
 }
 
-.towDown {
+.twoDown {
+	background-color: silver;
 	border: 1px dotted;
 	height: 45%;
 }
@@ -56,6 +59,7 @@
 
 .threeUp {
 	border: 1px dotted;
+	background-color: wheat;
 	height: 55%;
 	display: flex;
 	flex-direction: column;
@@ -65,17 +69,20 @@
 }
 
 .threeUpDiv {
+	background-color: silver;
 	border: 1px dotted;
-	height: 60%;
-	width: 60%;
+	height: 35%;
+	width: 35%;
 }
 
 .threeDown {
+	background-color: silver;
 	border: 1px dotted;
 	height: 45%;
 }
 
 .button {
+	padding: 7px;
 	font-size: larger;
 	background-color: #09d3ac;
 }
