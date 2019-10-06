@@ -1,5 +1,14 @@
 .header {
 	height: 10vh;
 	background-color: darkorange;
+	display: flex;
+	justify-content: center;
+}
+
+.block {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 
 }

@@ -1,5 +1,27 @@
 .header {
 	height: 90vh;
 	background-color: burlywood;
+	display: flex;
+	justify-content: center;
+}
 
+.block {
+	border: 1px dotted;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.photo {
+	background-color: aliceblue;
+	width: 25%;
+	height: 50%;
+}
+
+.greeting {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
