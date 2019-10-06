@@ -1,5 +1,27 @@
 .header {
 	height: 100vh;
 	background-color: darkseagreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block {
+	border: 1px dotted;
+	width: 80%;
+	height: 70%;
+}
+
+.up {
+	border: 1px dotted;
+	text-align: center;
+	height: 15vh;
+}
+
+.third {
+	border: 1px dotted;
+	height: 55vh;
+	display: flex;
+	justify-content: space-between;
 
 }
