@@ -1,5 +1,30 @@
 .header {
 	height: 50vh;
 	background-color: dodgerblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.block {
+	border: 1px dotted;
+	width: 80%;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contacts {
+	border: 1px dotted;
+	height: 30%;
+	width: 44%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts div {
+	width: 15%;
+	background-color: gray;
 }
