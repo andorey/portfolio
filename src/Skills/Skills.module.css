@@ -66,7 +66,7 @@
 
 .threeUpDiv {
 	border: 1px dotted;
-	height: 40%;
+	height: 60%;
 	width: 60%;
 }
 
@@ -76,8 +76,6 @@
 }
 
 .button {
-	margin: 10%;
-	padding: 15%;
 	font-size: larger;
 	background-color: #09d3ac;
 }

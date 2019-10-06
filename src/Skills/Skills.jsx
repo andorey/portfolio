@@ -12,18 +12,18 @@ function Skills() {
 					<div className={styles.one}></div>
 					<div className={styles.two}>
 						<div className={styles.twoUp}>
-
+							up
 						</div>
 						<div className={styles.twoDown}>
-
+							down
 						</div>
 					</div>
 					<div className={styles.three}>
 						<div className={styles.threeUp}>
-							<div className={styles.threeUpDiv}> </div>
-							<div>
-								<button className={styles.button}>React</button>
+							<div className={styles.threeUpDiv}>
+								up-up
 							</div>
+							<button className={styles.button}>React</button>
 						</div>
 						<div className={styles.threeDown}>
 							Detailed <br/> skill <br/> description
