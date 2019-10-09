@@ -9,9 +9,9 @@ function Contacts() {
 					CONTACTS
 				</div>
 				<div className={styles.contacts}>
-					<div> </div>
-					<div> </div>
-					<div> </div>
+					<input type="text"/>
+					<input type="text"/>
+					<textarea name="" id="" cols="30" rows="10"> </textarea>
 				</div>
 				<div>
 					<button className={styles.button}>

@@ -20,16 +20,17 @@
 	border: 1px dotted;
 	height: 60%;
 	width: 60%;
-}
-
-.contacts div {
-	height: 25%;
-	margin: 3%;
-	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .button {
 	padding: 8px;
 	font-size: large;
 	background-color: lightskyblue;
+}
+
+input {
+	row-span: inherit;
 }
