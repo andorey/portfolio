@@ -1,0 +1,25 @@
+.skill {
+	border: 1px dotted;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon {
+	background-color: silver;
+	border: 1px dotted;
+	height: 70px;
+	width: 70px;
+}
+
+.skillDescription {
+	background-color: silver;
+	border: 1px dotted;
+}
+
+.skillTitle{
+	padding: 7px;
+	font-size: larger;
+	background-color: #09d3ac;
+}

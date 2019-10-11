@@ -1,5 +1,5 @@
 .header {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: darkseagreen;
 	display: flex;
 	justify-content: center;
@@ -7,82 +7,20 @@
 }
 
 .block {
-	/*border: 1px dotted;*/
 	width: 80%;
-	height: 70vh;
 }
 
 .hat {
 	border: 1px dotted;
 	text-align: center;
-	height: 15vh;
+	height: 50px;
 }
 
-.third {
+.skills {
 	border: 1px dotted;
-	height: 55vh;
+	min-height: 250px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 
-}
-
-.one {
-	background-color: aliceblue;
-	border: 1px dotted;
-	width: 25%;
-}
-
-.two {
-	border: 1px dotted;
-	width: 25%;
-	display: flex;
-	flex-direction: column;
-}
-
-.twoUp {
-	background-color: aliceblue;
-	border: 1px dotted;
-	height: 55%;
-
-}
-
-.twoDown {
-	background-color: silver;
-	border: 1px dotted;
-	height: 45%;
-}
-
-.three {
-	border: 1px dotted;
-	width: 25%;
-}
-
-.threeUp {
-	border: 1px dotted;
-	background-color: wheat;
-	height: 55%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-
-}
-
-.threeUpDiv {
-	background-color: silver;
-	border: 1px dotted;
-	height: 35%;
-	width: 35%;
-}
-
-.threeDown {
-	background-color: silver;
-	border: 1px dotted;
-	height: 45%;
-}
-
-.button {
-	padding: 7px;
-	font-size: larger;
-	background-color: #09d3ac;
 }

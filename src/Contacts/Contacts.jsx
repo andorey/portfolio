@@ -11,7 +11,7 @@ function Contacts() {
 				<div className={styles.contacts}>
 					<input type="text"/>
 					<input type="text"/>
-					<textarea name="" id="" cols="30" rows="10"> </textarea>
+					<textarea name="" id="" > </textarea>
 				</div>
 				<div>
 					<button className={styles.button}>

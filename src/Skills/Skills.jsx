@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.css'
+import Skill from "./Skill/Skill";
 
 function Skills() {
 	return (
@@ -8,29 +9,11 @@ function Skills() {
 				<div className={styles.hat}>
 					My Skills
 				</div>
-				<div className={styles.third}>
-					<div className={styles.one}>
-						...
-					</div>
-					<div className={styles.two}>
-						<div className={styles.twoUp}>
-							...
-						</div>
-						<div className={styles.twoDown}>
-							...
-						</div>
-					</div>
-					<div className={styles.three}>
-						<div className={styles.threeUp}>
-							<div className={styles.threeUpDiv}>
-								...
-							</div>
-							<button className={styles.button}>React</button>
-						</div>
-						<div className={styles.threeDown}>
-							Detailed <br/> skill <br/> description
-						</div>
-					</div>
+
+				<div className={styles.skills}>
+					<Skill />
+					<Skill />
+					<Skill />
 				</div>
 			</div>
 		</div>

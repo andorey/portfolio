@@ -22,7 +22,7 @@
 	width: 60%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+
 }
 
 .button {
@@ -33,4 +33,13 @@
 
 input {
 	row-span: inherit;
+}
+
+textarea {
+	resize: none;
+	height: 150px;
+}
+
+.contacts input, textarea {
+	border: 1px solid grey;
 }
