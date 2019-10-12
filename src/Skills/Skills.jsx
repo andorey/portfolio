@@ -9,7 +9,6 @@ function Skills() {
 				<div className={styles.hat}>
 					My Skills
 				</div>
-
 				<div className={styles.skills}>
 					<Skill />
 					<Skill />
