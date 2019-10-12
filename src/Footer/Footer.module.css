@@ -1,4 +1,4 @@
-.header {
+.footer {
 	height: 50vh;
 	background-color: dodgerblue;
 	display: flex;
@@ -9,7 +9,7 @@
 .block {
 	border: 1px dotted;
 	width: 80%;
-	height: 30vh;
+	height: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -23,7 +23,7 @@
 	justify-content: space-between;
 }
 
-.contacts div {
+.contacts nav {
 	width: 50px;
 	height: 50px;
 	background-color: gray;
