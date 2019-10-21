@@ -1,5 +1,5 @@
 .header {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: plum;
 	display: flex;
 	justify-content: center;
@@ -18,7 +18,7 @@
 
 .projects {
 	border: 1px dotted;
-	min-height: 320px;
+	/*min-height: 320px;*/
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
