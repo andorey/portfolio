@@ -30,3 +30,9 @@
 	border: 1px dotted;
 	width: fit-content;
 }
+
+@media screen and (max-width: 807px){
+	.project {
+		width: 100%;
+	}
+}
