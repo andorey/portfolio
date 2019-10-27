@@ -1,9 +1,10 @@
 .footer {
 	height: 50vh;
-	background-color: dodgerblue;
+	background-color: #252527;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 .block {
@@ -26,7 +27,7 @@
 .contacts nav {
 	width: 60px;
 	height: 60px;
-	background-color: gray;
+	background-color: lightgray;
 }
 
 @media screen and (max-width: 760px){

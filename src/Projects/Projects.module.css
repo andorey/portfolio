@@ -1,9 +1,10 @@
 .header {
 	min-height: 100vh;
-	background-color: plum;
+	background-color: #1f1f20;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 .block {

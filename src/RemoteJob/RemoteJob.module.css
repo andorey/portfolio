@@ -1,9 +1,10 @@
 .header {
 	height: 40vh;
-	background-color: gold;
+	background-color: #252527;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 .block {
