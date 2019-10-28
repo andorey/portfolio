@@ -10,10 +10,10 @@ function Contacts() {
 				</div>
 				<div className={styles.contacts}>
 					<div>
-						<input type="text"/>
+						<input type="text" placeholder={'Name'}/>
 					</div>
 					<div>
-						<input type="text"/>
+						<input type="email" placeholder={'E-mail:'}/>
 					</div>
 					<div>
 						<textarea name="" id=""> </textarea>

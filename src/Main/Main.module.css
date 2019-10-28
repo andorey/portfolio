@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: center;
 	color: white;
+
 }
 
 .block {
@@ -12,6 +13,7 @@
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin: 100px;
 
 }
 
@@ -19,6 +21,17 @@
 	background-color: aliceblue;
 	width: 250px;
 	height: 350px;
+	position: relative;
+}
+
+.photo:before {
+	content: '';
+	position: absolute;
+	width: 250px;
+	height: 380px;
+	border: 4px solid #09d3ac;
+	left: 10px;
+	top: -20px;
 }
 
 .greeting {
@@ -34,5 +47,5 @@
 
 h1 {
 	font-weight: 300;
-	margin: 0;
+	margin: 0 0 20px 0;
 }
