@@ -5,9 +5,9 @@ function RemoteJob() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.block}>
-				<div>
+				<h3>
 					I Will Consider Options For Remote Work
-				</div>
+				</h3>
 				<div>
 					<button className={styles.button}>
 						Hire Me

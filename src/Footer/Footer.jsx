@@ -5,18 +5,18 @@ function Footer() {
 	return (
 		<div className={styles.footer}>
 			<div className={styles.block}>
-				<div>
+				<h3>
 					Andorey Rich
-				</div>
+				</h3>
 				<div className={styles.contacts}>
 					<nav> </nav>
 					<nav> </nav>
 					<nav> </nav>
 					<nav> </nav>
 				</div>
-				<div>
+				<h4>
 					© 2019 All rights reserved.
-				</div>
+				</h4>
 			</div>
 		</div>
 	);

@@ -5,9 +5,9 @@ function Contacts() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.block}>
-				<div>
+				<h3>
 					CONTACTS
-				</div>
+				</h3>
 				<div className={styles.contacts}>
 					<div>
 						<input type="text" placeholder={'Name'}/>

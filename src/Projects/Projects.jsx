@@ -6,9 +6,10 @@ function Projects() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.block}>
-				<div className={styles.hat}>
+				<h2 className={styles.hat}>
 					My Projects
-				</div>
+					<div>_____</div>
+				</h2>
 				<div className={styles.projects}>
 					<Project />
 					<Project />

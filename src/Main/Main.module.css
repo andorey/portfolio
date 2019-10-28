@@ -22,6 +22,12 @@
 	width: 250px;
 	height: 350px;
 	position: relative;
+	z-index: 0;
+}
+
+.photo img {
+	width: 100%;
+	height: 100%;
 }
 
 .photo:before {
@@ -32,6 +38,7 @@
 	border: 4px solid #09d3ac;
 	left: 10px;
 	top: -20px;
+	z-index: -1;
 }
 
 .greeting {

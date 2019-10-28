@@ -8,7 +8,7 @@
 }
 
 .block {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	width: 80%;
 	height: 200px;
 	display: flex;
@@ -18,7 +18,7 @@
 }
 
 .contacts {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	width: 40%;
 	display: flex;
 	justify-content: space-between;

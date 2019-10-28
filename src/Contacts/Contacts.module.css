@@ -8,7 +8,7 @@
 }
 
 .block {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	width: 80%;
 	height: 75vh;
 	display: flex;
@@ -18,7 +18,7 @@
 }
 
 .contacts {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	height: 60%;
 	width: 360px;
 	display: flex;
@@ -44,7 +44,7 @@ textarea {
 }
 
 .contacts input, textarea {
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	width: 95%;
 	justify-content: space-between;
 }

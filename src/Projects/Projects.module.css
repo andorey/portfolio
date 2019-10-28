@@ -12,13 +12,19 @@
 }
 
 .hat {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	text-align: center;
 	height: 50px;
+	margin-bottom: 50px;
+}
+
+.hat div {
+	color: #09d3ac;
+	margin-top: -10px;
 }
 
 .projects {
-	border: 1px dotted;
+	/*border: 1px dotted;*/
 	/*min-height: 320px;*/
 	display: flex;
 	justify-content: space-between;

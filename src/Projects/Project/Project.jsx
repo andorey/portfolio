@@ -6,7 +6,7 @@ function Project() {
 		<div className={styles.project}>
 			<div className={styles.picture}>
 				picture
-				<span className={styles.projectTitle}>Luck At</span>
+				<span className={styles.projectTitle}>Look At</span>
 			</div>
 			<span className={styles.projectDescription}>
 				The Project Name

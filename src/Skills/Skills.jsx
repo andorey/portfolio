@@ -6,9 +6,10 @@ function Skills() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.block}>
-				<div className={styles.hat}>
+				<h2 className={styles.hat}>
 					My Skills
-				</div>
+					<div>_____</div>
+				</h2>
 				<div className={styles.skills}>
 					<Skill />
 					<Skill />
