@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 function Footer() {
 	return (
@@ -15,7 +15,7 @@ function Footer() {
 					<nav> </nav>
 				</div>
 				<h4>
-					© 2019 All rights reserved.
+					© 2021 All rights reserved.
 				</h4>
 			</div>
 		</div>
